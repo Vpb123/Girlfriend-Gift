@@ -1,0 +1,47 @@
+.balloon-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  pointer-events: none; /* Allows interaction with elements below */
+}
+
+.balloon {
+  position: absolute;
+  width: 80px; /* Default width */
+  height: 100px; /* Default height */
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.7), rgba(255, 99, 71, 0.7)); /* Shiny effect */
+  border-radius: 80% 80% 80% 80%; /* Balloon shape */
+  z-index: 10;
+  transform-origin: center bottom;
+  pointer-events: none; /* Balloons themselves are non-interactive */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Enhanced shadow */
+}
+
+.balloon::after {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  width: 10px; /* Adjusted width */
+  height: 20px; /* Adjusted height */
+  background-color: inherit; /* Match balloon color */
+  border-radius: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  z-index: 10;
+}
+
+.balloon.pop {
+  animation: pop 0.3s forwards;
+}
+
+@keyframes pop {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0);
+    opacity: 0;
+  }
+}
