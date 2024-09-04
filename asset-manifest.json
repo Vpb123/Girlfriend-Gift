@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Girlfriend-Gift/static/css/main.aceda789.css",
-    "main.js": "/Girlfriend-Gift/static/js/main.01eb8e84.js",
+    "main.css": "/Girlfriend-Gift/static/css/main.41e12426.css",
+    "main.js": "/Girlfriend-Gift/static/js/main.ac1f4141.js",
     "static/js/453.660cdd5f.chunk.js": "/Girlfriend-Gift/static/js/453.660cdd5f.chunk.js",
     "static/media/Intial Breakfast.jpeg": "/Girlfriend-Gift/static/media/Intial Breakfast.b9f21ec37ba11422769f.jpeg",
     "static/media/Love from home.jpeg": "/Girlfriend-Gift/static/media/Love from home.62de78dec8249a6f18db.jpeg",
@@ -27,12 +27,12 @@
     "static/media/BBQ Nation.jpeg": "/Girlfriend-Gift/static/media/BBQ Nation.44ff277821c508697fff.jpeg",
     "static/media/Chill in Pune.jpeg": "/Girlfriend-Gift/static/media/Chill in Pune.60dc64dec00c4aa792c9.jpeg",
     "index.html": "/Girlfriend-Gift/index.html",
-    "main.aceda789.css.map": "/Girlfriend-Gift/static/css/main.aceda789.css.map",
-    "main.01eb8e84.js.map": "/Girlfriend-Gift/static/js/main.01eb8e84.js.map",
+    "main.41e12426.css.map": "/Girlfriend-Gift/static/css/main.41e12426.css.map",
+    "main.ac1f4141.js.map": "/Girlfriend-Gift/static/js/main.ac1f4141.js.map",
     "453.660cdd5f.chunk.js.map": "/Girlfriend-Gift/static/js/453.660cdd5f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.aceda789.css",
-    "static/js/main.01eb8e84.js"
+    "static/css/main.41e12426.css",
+    "static/js/main.ac1f4141.js"
   ]
 }
